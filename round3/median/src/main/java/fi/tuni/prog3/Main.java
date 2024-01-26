@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter numbers: ");
+        System.out.println("Enter numbers:");
         String[] inputs = scanner.nextLine().split("\\s+");
         double[] numbers = Arrays.stream(inputs)
                 .mapToDouble(Double::parseDouble)
